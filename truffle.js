@@ -34,7 +34,7 @@ if(mnemonic.length > 0) {
 		provider: new HDWalletProvider(mnemonic, "https://ropsten.infura.io/jPkVat66IVKkmtAsy0DJ"),
 		network_id: 3,
 		gas: 4e6,
-		gasPrice: 50e9
+		gasPrice: 100e9
 	};
 }
 
