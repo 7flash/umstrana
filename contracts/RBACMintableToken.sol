@@ -8,6 +8,7 @@ contract RBACMintableToken is MintableToken, RBAC {
 
 	modifier hasMintPermission() {
 		checkRole(msg.sender, ROLE_MINTER);
+		_;
 	}
 
 	function addMinter(address _minter)
